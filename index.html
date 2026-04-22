@@ -342,14 +342,14 @@
     <audio id="audio" crossorigin="anonymous"></audio>
 
     <!-- Kakao Ad Script -->
-    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
     
     <script>
         // 광고 스크립트 로드 함수
         function loadKakaoAdScript() {
             const script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src = '//t1.daumcdn.net/kas/static/ba.min.js';
+            script.src = '//t1.kakaocdn.net/kas/static/ba.min.js';
             script.onload = function() {
                 setTimeout(checkAdLoading, 3000);
             };
